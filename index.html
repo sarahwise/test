@@ -1,17 +1,73 @@
 <!Doctype html>
 <html>
 <head>
-    <title>Title of the Page</title>
+    <title>Test Repository</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js">
     </script>
 </head>
 <body>
     <script src="script.js"></script>
-<h1> This is a test </h1>
-<p> this is a fucking paragraph </p>
-<p>second fucking paragraph</p>
-<p>this is the third fucking paragraph</p>
-<p>fourht fucking paragraph</p>
-<body>
+<!--Bootstrap Navbar-->
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#">Test Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">HTML <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CSS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">JavaScript</a>
+                </li>
+                <li class="nav-item">
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </nav>
+<!--Card code from bootstrap this is card 1-->
+<div class="card1" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title">Test Card</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Test Subtitle</h6>
+      <p class="card-text">Testing out bootstrap.</p>
+      <a href="#" class="card-link" onclick="card1()">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+<!--This is card 2-->
+  <div class="card2" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title">Test Card</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Test Subtitle</h6>
+      <p class="card-text">Testing out bootstrap.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+<!--This is card 3-->
+<div class="card3" style="width: 25rem;">
+    <div class="card-body">
+      <h5 class="card-title">Test Card</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Test Subtitle</h6>
+      <p class="card-text">Testing out bootstrap.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  <script>
+      function card1() {
+          document.getElementById('card1').style.color = 'red';
+      }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+</body>
 </html>
